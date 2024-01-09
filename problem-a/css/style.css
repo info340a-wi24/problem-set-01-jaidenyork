@@ -1,0 +1,51 @@
+/*
+  Jaiden York
+*/
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* Apply default styles to the body */
+body {
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Style the main content */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Style the character image */
+figure img {
+  max-height: 400px;
+  width: 100%;
+}
+
+/* Style the list */
+ul {
+  list-style-type: none;
+}
+
+/* Highlight an important list item with a different color */
+.important-reason {
+  color: #3498db; /* Blue color as an example */
+}
